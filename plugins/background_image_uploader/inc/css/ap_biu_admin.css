@@ -1,0 +1,41 @@
+.single-image{
+	vertical-align: top;
+	height: 60px;
+	width: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clear: both;
+}
+.single-image img{
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.single-image span{
+	display: inline-block;
+	padding-left: 0px;
+	float: left;
+}
+.single-image .image-container{
+	height: 60px;
+	width: 60px;
+	overflow: hidden;
+	float: left;
+	margin-right: 20px;
+}
+
+.single-image-upload{
+	vertical-align: top;
+	height: 60px;
+	width: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clear: both;
+}
+.single-image-upload img{
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
