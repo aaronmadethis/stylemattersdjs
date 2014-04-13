@@ -348,43 +348,45 @@ strong {
 	padding-left: 44px;
 }
 
-/*----------- deejay -------------*/
+/*-------------------------
+NEW DEEJAY SLIDESHOW
+--------------------------*/
 #deejay-gallery{
 	width:856px;
-	height:340px;
+	height:458px;
 	text-align: center;
 	display: block;
 	margin-left:51px;
-}
-#dj-slideshow ul{
-	position: relative;
-	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
-}
-
-#dj-slideshow ul.slideshow_images{
-	height:340px;
 	overflow: hidden;
-}
+	}
+#slide-wrap-3,
+#slide-wrap-1{
+	width: 231px;
+	height: 165px;
+	}
+#slide-wrap-2{
+	width: 394px;
+	height: 280px;
+	}
+#slide-wrap-7,
+#slide-wrap-4{
+	width: 231px;
+	height: 294px;
+	}
+#slide-wrap-5{
+	width: 142px;
+	height: 178px;
+	}
+#slide-wrap-6{
+	width: 252px;
+	height: 178px;
+	}
+.slide-container{
+	position:absolute;
+	}
 
-#dj-slideshow .slideshow_images li{
-	text-align: center;
-	width:856px;
-}
 
-img.horizontal{
-	max-width: 100%;
-}
-img.vertical{
-	max-height: 100%;
-}
-#deejay-gallery,
-#slideshow-wrapper0{
-	background-image: url('images/sm_pattern.gif');
-	background-position: 0px 0px;
-	background-repeat: no-repeat;
-}
+
 
 a.nivo-prevNav {
 	left: 25px;

@@ -13,20 +13,7 @@
 		<div id="deejay-gallery">
 			<div id="dj-slideshow" class="content ">
 				<div class="slideshow_loader"></div>
-				<a class="next" href="#">
-					<div class="plus"></div>
-					<ul class="slideshow_images">
-						<?php
-							$dj_slideshow = get_page_by_title( "DeeJays Slideshow", 'OBJECT', 'sm_slideshow' );
-							$image_meta = get_field('images', $dj_slideshow->ID );
-							foreach ($image_meta as $key => $value) {
-								$image_id = $value['image'];
-								$image_url = wp_get_attachment_image_src($image_id, 'dj-slideshow');
-								echo '<li class="single-image id-' . $image_id . ' "><img class="center" src="' . $image_url[0] . '" width="' . $image_url[1] . '" height="' . $image_url[2] . '"></li>';
-							}
-						?>
-					</ul>
-				</a>
+				
 			</div>
 		</div>
 	</div>
