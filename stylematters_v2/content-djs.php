@@ -13,7 +13,9 @@
 		<div id="deejay-gallery">
 			<div id="dj-slideshow" class="content ">
 				<div class="slideshow_loader"></div>
-				
+				<ul >
+					<li></li>
+				</ul>
 			</div>
 		</div>
 	</div>
